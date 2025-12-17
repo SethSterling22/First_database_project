@@ -1,0 +1,42 @@
+.contenedor {
+/* background-image: url('images/loglib.jpg'); */
+background-size: auto;
+background-repeat: repeat-x;
+background-position: center center;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.centrar {
+  height: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangulo {
+  width: 80%;
+  height: 100%;
+  min-width: 700px;
+	min-height: 100vh;
+  background-color: white;
+  background-image: url('images/libpat.jpg'), url('images/libpat.jpg');
+  background-repeat: repeat-y;
+  background-position: left top, right top;
+  background-size: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* ajusta el ancho de la imagen */
+  border: 1px solid #ccc; /* agrega un borde alrededor de la imagen */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* agrega un sombreado a la imagen */
+}
