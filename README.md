@@ -1,26 +1,23 @@
+# Sistema de Reserva
 
-
-Link: https://ada.uprrp.edu/~sebastian.hernandez11/
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---
 
 Este proyecto cumple el propósito de dar préstamos y reservas de computadoras y salón multiusos
 en la biblioteca de Administración de Empresas. Permite a los usuarios realizar préstamos de computadoras, 
 agregar programas a las mismas, reservar salones y recibir computadoras al finalizar el préstamo.
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---
 
-Inicio de sesión:
+### Login: 
+| Field| Value |
+| --- | --- |
+| Usuario | Admin |
+| Contraseña | BibEmp |
 
-Usuario: Admin
+---
 
-Contraseña: BibEmp
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Menú principal:
+### Menú principal:
 
 Agregar, eliminar y revisar préstamos: la tabla muestra los préstamos que están corriendo hasta el momento, 
 dando el ID del préstamo, el número de propiedad de la máquina que se prestó, el nombre y apellido de la persona 
@@ -47,8 +44,9 @@ Reservar salón: se puede reservar un salón para una actividad, especificando e
 realiza la reserva, su ID y la hora de inicio y fin de la actividad junto con la fecha.
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Cómo usarlo:
+---
+
+### Cómo usarlo:
 
 Para agregar se debe seleccionar la opción correspondiente y llenar todos los campos requeridos en el
 formulario que quieras usar, ya sea para agregar usuario, programa o computadora.
@@ -64,4 +62,5 @@ La computadora recibida se quitará junto con el préstamo.
 
 Se reserva el salón con las credenciales del usuario, se indica la fecha y la hora de inicio y culminación de la 
 actividad.
+
 
